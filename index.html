@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class = "ex1">
+        <p>Задание 1</p>
+        <form action="#" method="dialog" class = "form1" onsubmit = "maxLengthString()">
+            <div class = "strings">
+                <label for="str1">Строка 1: </label>
+                <input type = "text" id = "str1">
+            </div>
+            <input type="submit" name="" id="subm1" value="Найти максимальную по длине стрку">
+        </form>
+        <button onclick = "addStrings()">Добавить строку</button>
+        <div class="ex1res"></div>
+    </div>
+    <br>
+    <br>
+    <div class="ex2">
+        <p>Задание 2</p>
+        <form action = "#" method="dialog" onsubmit = "symbolExecute()">
+            <label for="strex2">Строка</label>
+            <input type = "text" id = "strex2">
+            <input type="submit" name="" value = "Найти наиболее встречающийся символ">
+        </form>
+        <div class = "res2">
+
+        </div>
+    </div>
+    <br>
+    <br>
+    <div class="ex3">
+        <p>Задание 3</p>
+        <form action="#" method="dialog" onsubmit="replaceCharExecute()">
+            <label for="charRepl">Замена символа</label>
+            <input type="text" name="" id="charRepl">
+            <input type = "submit" value = "Заменить">
+        </form>
+        <div class="res3">
+
+        </div>
+    </div>
+    <div class="ex4">
+        <p>Задание 4</p>
+        <form action="#" method="dialog" onsubmit = "anagramsExecute()">
+            <label for="str1An">Строка 1</label>
+            <input type="text" name="" id="str1An">
+            <label for="str2An">Строка 2</label>
+            <input type="text" name="" id="str2An">
+            <input type="submit" value = "Проверить">
+        </form>
+        <div class="res4"></div>
+    </div>
+    <script src = "script.js"></script>
+</body>
+</html>
